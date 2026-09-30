@@ -1,8 +1,10 @@
 2D Top-Down Survival Shooter
+
 A fast-paced, top-down 2D arena shooter built in Unity (C#).
 The core mechanic subverts traditional shooter combat: your health is your ammunition. Every shot you fire costs a fraction of your life, forcing aggressive, precision-oriented play to siphon health back from defeated enemies before running dry.
 
 Core Gameplay & Mechanics
+
 Health-as-Ammo Economy: Firing weapons chips away at your remaining health bar. Vanquishing enemies restores health, creating a relentless risk-reward loop where playing defensively guarantees defeat.
 Dynamic Wave Scaling: An automated wave manager tracks alive entities, pacing, and difficulty curves. Each consecutive wave ramps up enemy count, movement speed, and spawn frequency.Proximity Radius Spawning: Enemies instantiate dynamically within an annular radius around the player, ensuring immediate tension without unfair direct collisions upon spawning.
 Modular Prefab Pipeline: Decoupled prefabs for player projectiles, distinct enemy archetypes, visual hit effects, and pickups, allowing rapid balance tuning via ScriptableObjects and Inspector fields.

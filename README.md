@@ -20,6 +20,8 @@ Building this project focused on structuring clean, decoupled systems that inter
 
 Getting Started
 
+itch.io web-build: https://3ali.itch.io/epic-game
+
 Built With
 Engine: Unity
 Language: C#
